@@ -291,8 +291,8 @@ footer {
     width: 80%;
   }
 
-  #email,
-  #meetup {
+  #contact .contact-link {
+    color: whitesmoke;
     text-decoration: underline;
   }
 
