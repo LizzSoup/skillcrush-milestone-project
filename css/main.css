@@ -73,7 +73,7 @@ header nav ul li a:hover {
 
 #intro {
   background: white;
-  padding: 75px 0 75px 30px;
+  padding: 50px 0 75px 50px;
 }
 
 #computer-icon {
@@ -184,21 +184,23 @@ header nav ul li a:hover {
 #contact {
   background: #222;
   color: whitesmoke;
-  text-align: center;
   padding: 20px 0 20px 0;
 }
 
 #contact h3 {
   font-size: 35px;
+  text-align: center;
 }
 
 #contact h4 {
   font-size: 24px;
   font-weight: 400;
+  text-align: center;
 }
 
 #contact p {
   font-size: 21px;
+  text-align: center;
 }
 
 #email,
@@ -218,6 +220,7 @@ header nav ul li a:hover {
 #contact ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 #contact ul li {
@@ -255,7 +258,42 @@ footer {
     display: none;
   }
 
-  .right {
+  #intro {
+    padding: 0 20px 0 20px;
+  }
+
+  #intro h1 {
+    font-size: 40px;
+  }
+
+  #intro p {
+    font-size: 30px;
+  }
+
+  #work {
+    padding: 25px 0 25px 0;
+  }
+
+  #work img {
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgb(177, 175, 175);
+  }
+
+  #about .right {
     padding: 20px;
   }
+
+  #contact .third-width {
+    background: #333;
+    border-radius: 10px;
+    margin: 10px 10% 10px 10%;
+    padding-bottom: 25px;
+    width: 80%;
+  }
+
+  #email,
+  #meetup {
+    border-bottom: 2px solid #4D55FE;
+  }
+
 }
