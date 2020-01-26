@@ -200,8 +200,8 @@ header nav ul li a:hover {
   font-size: 21px;
 }
 
-#contact a {
-  border-bottom: 3px solid #4D55FE;
+#email,
+#meetup {
   color: whitesmoke;
   text-decoration: none;
   padding-bottom: 5px;
@@ -209,6 +209,7 @@ header nav ul li a:hover {
 
 #email:hover,
 #meetup:hover {
+  border-bottom: 3px solid #4D55FE;
   font-size: 24px;
   font-weight: 900;
 }
@@ -222,7 +223,11 @@ header nav ul li a:hover {
   display: inline-block;
 }
 
-#contact ul li:hover {
+#contact ul li a {
+  color: whitesmoke;
+}
+
+#contact ul li a:hover {
   padding-bottom: 5px;
   border-bottom: 3px solid #4D55FE;
 }
