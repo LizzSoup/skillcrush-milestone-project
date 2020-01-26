@@ -1,0 +1,59 @@
+body {
+  background-size: cover;
+  font-size: 1.4em;
+  height: 100vh;
+  background: #173052 url('funky-background.jpg') no-repeat center center fixed;
+  font-family: 'Quicksand', sans-serif;
+  color: #081221;
+  padding: 10px;
+}
+
+#container {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #091e3c;
+  opacity: 0.98;
+}
+
+.panel {
+  max-width: 80%;
+  background-color: #EFC94B;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+button {
+  background: #091e3c;
+  color: rgb(255, 253, 235);
+  font-size: .75em;
+  height: 3em;
+  width: 80%;
+  margin-bottom: 1.5em;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px;
+  border: 2px solid #081221;
+  font-weight: 400;
+  letter-spacing: .25em;
+}
+
+input {
+  border-radius: 10px;
+  width: 20%;
+  height: 1.6em;
+  text-align: center;
+  background: rgb(255, 253, 235);
+  font-size: 1.2em;
+  border: 2px solid #081221;
+}
+
+.activeEasyBtn {
+  background: rgb(19, 63, 46);
+}
+
+.activeHardBtn {
+  background: rgb(198, 70, 53);
+}
