@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: whitesmoke;
+}
+
+h1 {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.box {
+    margin: 0 auto;
+    border: 5px solid #222;
+    background: white;
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+
+@keyframes boxanimation {
+    0% {
+        background-color: crimson;
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        background-color: rgb(255, 0, 128);
+        top: 0;
+        left: 545px;
+    }
+
+    40% {
+        left: 545px;
+        top: 345;
+        background-color: orangered;
+    }
+
+    60% {
+        top: 345px;
+        left: 545px;
+        background-color: orange;
+    }
+
+    80% {
+        top: 345px;
+        left: 0px;
+        background-color: gold;
+    }
+
+    100% {
+        background-color: orangered;
+        top: 0;
+        left: 0;
+    }
+
+}
+
+.circle {
+    animation-name: boxanimation;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    background-color: crimson;
+    border: 3px solid #222;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
