@@ -201,15 +201,13 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-#email,
-#meetup {
+#contact .contact-link {
   color: whitesmoke;
   text-decoration: none;
   padding-bottom: 5px;
 }
 
-#email:hover,
-#meetup:hover {
+#contact .contact-link {
   border-bottom: 3px solid #4D55FE;
   font-size: 24px;
   font-weight: 900;
