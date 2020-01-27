@@ -120,6 +120,7 @@ header nav ul li a:hover {
 }
 
 #work img {
+  border-radius: 10px;
   box-shadow: 0 15px 20px lightgrey;
   display: block;
   margin: auto;
@@ -140,13 +141,6 @@ header nav ul li a:hover {
 #work a {
   color: #222;
   text-decoration: none;
-}
-
-#work a:hover h4 {
-  color: #4D55FE;
-  border-bottom: 3px solid #111;
-  display: inline-block;
-  margin-bottom: 9px;
 }
 
 /* ---------- About Section ---------- */
