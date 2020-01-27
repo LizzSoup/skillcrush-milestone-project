@@ -247,11 +247,16 @@ footer {
   }
 
   #intro {
-    padding: 0 20px 0 20px;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .border {
+    height: 15px;
+    background: #FB9FEA;
   }
 
   #intro h1 {
-    font-size: 40px;
+    font-size: 70px;
   }
 
   #intro p {
