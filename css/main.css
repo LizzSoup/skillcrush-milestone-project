@@ -82,7 +82,7 @@ header nav ul li a:hover {
 }
 
 #intro h1 {
-  font-size: 67px;
+  font-size: 70px;
   font-weight: 900;
 }
 
@@ -99,6 +99,7 @@ header nav ul li a:hover {
 #work {
   background: whitesmoke;
   border-top: 30px solid #4D55FE;
+  border-bottom: 30px solid #4D55FE;
   padding: 100px 0 100px 0;
   text-align: center;
 }
@@ -181,6 +182,7 @@ header nav ul li a:hover {
 
 #contact {
   background: #222;
+  border-top: 15px solid #FB4456;
   color: whitesmoke;
   padding: 20px 0 20px 0;
 }
