@@ -201,16 +201,15 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-#contact .contact-link {
+#contact a {
   color: whitesmoke;
   text-decoration: none;
-  padding-bottom: 5px;
 }
 
-#contact .contact-link {
+#contact a:hover {
+  padding-bottom: 5px;
   border-bottom: 3px solid #4D55FE;
   font-size: 24px;
-  font-weight: 900;
 }
 
 #contact ul {
@@ -221,15 +220,6 @@ header nav ul li a:hover {
 
 #contact ul li {
   display: inline-block;
-}
-
-#contact ul li a {
-  color: whitesmoke;
-}
-
-#contact ul li a:hover {
-  padding-bottom: 5px;
-  border-bottom: 3px solid #4D55FE;
 }
 
 /* ---------- Footer Section ---------- */
