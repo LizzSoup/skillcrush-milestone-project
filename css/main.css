@@ -45,6 +45,15 @@ h3 {
 
 /* ---------- Header Section ---------- */
 
+.border {
+  height: 30px;
+  background: #FB9FEA;
+}
+
+header nav {
+  padding-top: 20px;
+}
+
 header nav ul {
   list-style: none;
   margin-right: 30px;
@@ -250,10 +259,10 @@ footer {
     padding: 30px 20px 30px 20px;
   }
 
-  .border {
+  /* .border {
     height: 15px;
     background: #FB9FEA;
-  }
+  } */
 
   #intro h1 {
     font-size: 70px;
