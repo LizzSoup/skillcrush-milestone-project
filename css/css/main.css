@@ -135,8 +135,6 @@ header nav ul li a:hover {
 #work a:hover h4 {
   color: #4D55FE;
   border-bottom: 3px solid #111;
-  font-size: 29px;
-  font-weight: 900;
   display: inline-block;
   margin-bottom: 9px;
 }
