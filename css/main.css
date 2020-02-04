@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #111;
   font-family: 'Nunito', sans-serif;
@@ -71,225 +75,227 @@ header nav ul li a {
   font-size: 25px;
   font-weight: 700;
   text-decoration: none;
+  transition: .2s color;
 }
 
-header nav ul li a:hover {
-  color: #4D55FE;
-  border-bottom: 3px solid #111;
-}
-
-/* ---------- Introduction Section ---------- */
-
-#intro {
-  background: white;
-  padding: 50px 0 75px 50px;
-}
-
-#computer-icon {
-  margin-right: 23px;
-  display: inline-block;
-}
-
-#intro h1 {
-  font-size: 70px;
-  font-weight: 900;
-}
-
-#intro h1 span {
-  color: #FB4456;
-}
-
-#intro p {
-  font-size: 40px;
-}
-
-/* ---------- Work Section/Portfolio ---------- */
-
-#work {
-  background: whitesmoke;
-  border-top: 30px solid #4D55FE;
-  border-bottom: 30px solid #4D55FE;
-  padding: 100px 0 100px 0;
-  text-align: center;
-}
-
-#work h3 {
-  font-size: 35px;
-  margin: 0 0 35px 0;
-  padding-bottom: 35px;
-}
-
-#work img {
-  border-radius: 10px;
-  box-shadow: 0 15px 20px lightgrey;
-  display: block;
-  margin: auto;
-}
-
-#work img:hover {
-  box-shadow: 0 15px 20px rgb(177, 175, 175);
-}
-
-#work h4 {
-  font-size: 24px;
-}
-
-#work p {
-  font-family: 'Nunito', sans-serif;
-}
-
-#work a {
-  color: #222;
-  text-decoration: none;
-}
-
-/* ---------- About Section ---------- */
-
-#about {
-  background: white;
-  overflow: auto;
-  padding: 100px 0 100px 0;
-}
-
-#about h3 {
-  font-size: 35px;
-  margin-top: 0;
-}
-
-#about img {
-  display: block;
-  margin: auto;
-}
-
-#about h4 {
-  font-size: 25px;
-  font-weight: 700;
-}
-
-#about p span {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-#about .right {
-  padding-right: 75px;
-}
-
-#about .right p {
-  font-size: 22px;
-  line-height: 34px;
-  vertical-align: middle;
-}
-
-/* ---------- Contact Section ---------- */
-
-#contact {
-  background: #222;
-  border-top: 5px solid #FB4456;
-  color: whitesmoke;
-  padding: 20px 0 20px 0;
-}
-
-#contact h3 {
-  font-size: 35px;
-  text-align: center;
-}
-
-#contact h4 {
-  font-size: 24px;
-  font-weight: 400;
-  text-align: center;
-}
-
-#contact p {
-  font-size: 21px;
-  text-align: center;
-}
-
-#contact a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-#contact a:hover {
-  padding-bottom: 5px;
-  border-bottom: 3px solid #4D55FE;
-  font-size: 24px;
-}
-
-#contact ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-#contact ul li {
-  display: inline-block;
-}
-
-/* ---------- Footer Section ---------- */
-
-footer {
-  background: #222;
-  color: whitesmoke;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  text-align: center;
-  padding: 30px 0 30px 0;
-}
-
-@media (max-width: 768px) {
-
-  .half-width,
-  .third-width {
-    width: 100%;
+  header nav ul li a:hover {
+    color: #4D55FE;
+    border-bottom: 3px solid #111;
   }
 
-  header nav {
-    display: none;
-  }
+  /* ---------- Introduction Section ---------- */
 
   #intro {
-    padding: 30px 20px 30px 20px;
+    background: white;
+    padding: 50px 0 75px 50px;
   }
 
-  /* .border {
-    height: 15px;
-    background: #FB9FEA;
-  } */
+  #computer-icon {
+    margin-right: 23px;
+    display: inline-block;
+  }
 
   #intro h1 {
     font-size: 70px;
+    font-weight: 900;
+  }
+
+  #intro h1 span {
+    color: #FB4456;
   }
 
   #intro p {
-    font-size: 30px;
+    font-size: 40px;
   }
 
+  /* ---------- Work Section/Portfolio ---------- */
+
   #work {
-    padding: 25px 0 25px 0;
+    background: whitesmoke;
+    border-top: 30px solid #4D55FE;
+    border-bottom: 30px solid #4D55FE;
+    padding: 100px 0 100px 0;
+    text-align: center;
+  }
+
+  #work h3 {
+    font-size: 35px;
+    margin: 0 0 35px 0;
+    padding-bottom: 35px;
   }
 
   #work img {
     border-radius: 10px;
+    box-shadow: 0 15px 20px lightgrey;
+    display: block;
+    margin: auto;
+    transition: .2s box-shadow;
+  }
+
+  #work img:hover {
     box-shadow: 0 15px 20px rgb(177, 175, 175);
   }
 
+  #work h4 {
+    font-size: 24px;
+  }
+
+  #work p {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #work a {
+    color: #222;
+    text-decoration: none;
+  }
+
+  /* ---------- About Section ---------- */
+
+  #about {
+    background: white;
+    overflow: auto;
+    padding: 100px 0 100px 0;
+  }
+
+  #about h3 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+
+  #about img {
+    display: block;
+    margin: auto;
+  }
+
+  #about h4 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  #about p span {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
   #about .right {
-    padding: 20px;
+    padding-right: 75px;
   }
 
-  #contact .third-width {
-    background: #333;
-    border-radius: 10px;
-    margin: 10px 10% 10px 10%;
-    padding-bottom: 25px;
-    width: 80%;
+  #about .right p {
+    font-size: 22px;
+    line-height: 34px;
+    vertical-align: middle;
   }
 
-  #contact .contact-link {
+  /* ---------- Contact Section ---------- */
+
+  #contact {
+    background: #222;
+    border-top: 5px solid #FB4456;
     color: whitesmoke;
-    text-decoration: underline;
+    padding: 20px 0 20px 0;
   }
 
-}
+  #contact h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #contact h4 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  #contact p {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  #contact a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  #contact a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #4D55FE;
+    font-size: 24px;
+  }
+
+  #contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact ul li {
+    display: inline-block;
+  }
+
+  /* ---------- Footer Section ---------- */
+
+  footer {
+    background: #222;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+
+  @media (max-width: 768px) {
+
+    .half-width,
+    .third-width {
+      width: 100%;
+    }
+
+    header nav {
+      display: none;
+    }
+
+    #intro {
+      padding: 30px 20px 30px 20px;
+    }
+
+    /* .border {
+    height: 15px;
+    background: #FB9FEA;
+  } */
+
+    #intro h1 {
+      font-size: 70px;
+    }
+
+    #intro p {
+      font-size: 30px;
+    }
+
+    #work {
+      padding: 25px 0 25px 0;
+    }
+
+    #work img {
+      border-radius: 10px;
+      box-shadow: 0 15px 20px rgb(177, 175, 175);
+    }
+
+    #about .right {
+      padding: 20px;
+    }
+
+    #contact .third-width {
+      background: #333;
+      border-radius: 10px;
+      margin: 10px 10% 10px 10%;
+      padding-bottom: 25px;
+      width: 80%;
+    }
+
+    #contact .contact-link {
+      color: whitesmoke;
+      text-decoration: underline;
+    }
+
+  }
